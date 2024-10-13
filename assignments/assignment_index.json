@@ -1,0 +1,247 @@
+{
+  "name": "Challenge Studio 1",
+  "id": "753416",
+  "code": "KC005",
+  "assignments": [
+    {
+      "id": "4239855",
+      "name": "Business Model Canvas",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239855",
+      "filename": "business_model_canvas.pdf"
+    },
+    {
+      "id": "4239875",
+      "name": "Course Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239875",
+      "filename": "course_reflection.pdf"
+    },
+    {
+      "id": "4239872",
+      "name": "Final Business Plan",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239872",
+      "filename": "final_business_plan.pdf"
+    },
+    {
+      "id": "4239873",
+      "name": "Final Product",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239873",
+      "filename": "final_product.pdf"
+    },
+    {
+      "id": "4239823",
+      "name": "Group Meeting Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239823",
+      "filename": "group_meeting_reflection.pdf"
+    },
+    {
+      "id": "4239866",
+      "name": "Iteration Report",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239866",
+      "filename": "iteration_report.pdf"
+    },
+    {
+      "id": "4239851",
+      "name": "MVP",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239851",
+      "filename": "mvp.pdf"
+    },
+    {
+      "id": "4239868",
+      "name": "Marketing Plan",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239868",
+      "filename": "marketing_plan.pdf"
+    },
+    {
+      "id": "4239861",
+      "name": "Midpoint Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239861",
+      "filename": "midpoint_reflection.pdf"
+    },
+    {
+      "id": "4239870",
+      "name": "Pitch Deck and Presentation",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239870",
+      "filename": "pitch_deck_and_presentation.pdf"
+    },
+    {
+      "id": "4239824",
+      "name": "Problem Statement",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239824",
+      "filename": "problem_statement.pdf"
+    },
+    {
+      "id": "4239867",
+      "name": "Revenue Model",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239867",
+      "filename": "revenue_model.pdf"
+    },
+    {
+      "id": "4239846",
+      "name": "Solution Statement",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239846",
+      "filename": "solution_statement.pdf"
+    },
+    {
+      "id": "4239858",
+      "name": "Team Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239858",
+      "filename": "team_reflection.pdf"
+    },
+    {
+      "id": "4239848",
+      "name": "User Insights and Empathy Map",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239848",
+      "filename": "user_insights_and_empathy_map.pdf"
+    },
+    {
+      "id": "4239855",
+      "name": "Business Model Canvas",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239855",
+      "filename": "business_model_canvas.pdf"
+    },
+    {
+      "id": "4239875",
+      "name": "Course Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239875",
+      "filename": "course_reflection.pdf"
+    },
+    {
+      "id": "4239872",
+      "name": "Final Business Plan",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239872",
+      "filename": "final_business_plan.pdf"
+    },
+    {
+      "id": "4239873",
+      "name": "Final Product",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239873",
+      "filename": "final_product.pdf"
+    },
+    {
+      "id": "4239823",
+      "name": "Group Meeting Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239823",
+      "filename": "group_meeting_reflection.pdf"
+    },
+    {
+      "id": "4239866",
+      "name": "Iteration Report",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239866",
+      "filename": "iteration_report.pdf"
+    },
+    {
+      "id": "4239851",
+      "name": "MVP",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239851",
+      "filename": "mvp.pdf"
+    },
+    {
+      "id": "4239868",
+      "name": "Marketing Plan",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239868",
+      "filename": "marketing_plan.pdf"
+    },
+    {
+      "id": "4239861",
+      "name": "Midpoint Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239861",
+      "filename": "midpoint_reflection.pdf"
+    },
+    {
+      "id": "4239870",
+      "name": "Pitch Deck and Presentation",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239870",
+      "filename": "pitch_deck_and_presentation.pdf"
+    },
+    {
+      "id": "4239824",
+      "name": "Problem Statement",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239824",
+      "filename": "problem_statement.pdf"
+    },
+    {
+      "id": "4239867",
+      "name": "Revenue Model",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239867",
+      "filename": "revenue_model.pdf"
+    },
+    {
+      "id": "4239846",
+      "name": "Solution Statement",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239846",
+      "filename": "solution_statement.pdf"
+    },
+    {
+      "id": "4239858",
+      "name": "Team Reflection",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239858",
+      "filename": "team_reflection.pdf"
+    },
+    {
+      "id": "4239848",
+      "name": "User Insights and Empathy Map",
+      "course_id": "753416",
+      "course_code": "KC005",
+      "href": "https://gradescope.com/courses/753416/assignments/4239848",
+      "filename": "user_insights_and_empathy_map.pdf"
+    }
+  ]
+}

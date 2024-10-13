@@ -1,0 +1,600 @@
+# Visit https://docs.google.com/document/d/1Hm41CGu0pZrGB7_XrPZR50DU7DXvqeC6aZuaTLpRLlo/edit
+# for full details about the contents of the course.yml file.
+#
+# - Top level details of the course:
+#     name: course name
+#     code: course code
+#     term: when is this offered
+#     about_path: the path to the course overview md file
+#     image_path: the path to an image to use as the course header
+#
+# - Units
+#     name: name of the unit (e.g. Week 1: Introduction)
+#     activities: list of the activities in the Unit
+#
+# - Activities
+#     name: name of the activity
+#     path: where to find the file for the activity
+#     workload: how many minutes the activity is estimated to take
+#     type: `lesson` or `assignment`
+#     kind: airlock resource kind:
+#       `GENERAL`, `MEETING`, `PUBLICATION`, `PUBLICATION_REVIEWED`,
+#       `ASSIGNMENT`, `ASSIGNMENT_SUMMATIVE`
+#     publish: Is this ready, or still a draft? Publish can be set to:
+#       - `true` (publish to students now)
+#       - `false` (do not publish to students), default value if not specified
+#       - date, formatted like `2023-10-25` (publish to students on that date)
+#     due: When is the due date for the activity (e.g. 2023-12-27)
+#     grade_weight: what percent of the course grade is this
+#       (for now, only for assignments).  Must sum to 100.
+
+name: Challenge Studio 1
+code: KC005
+term: Apr-2024
+about_path: src/lessons/about.md
+units:
+  - name: Course Overview
+    activities:
+      - name: Introduction
+        path: src/lessons/about.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+      - name: Academic Integrity
+        path: src/front-matter/academic-integrity.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+      - name: Assessments
+        path: src/front-matter/assessments.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+      - name: Live Classes
+        path: src/front-matter/live-classes.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: true
+  - name: Welcome to Challenge Studio
+    activities:
+      - name: Introduction
+        path: src/lessons/welcome-to-challenge-studio.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: Why Challenge Studio?
+        path: src/lessons/welcome-to-challenge-studio/why-challenge-studio.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: 'What is Entrepreneurship: A Refresher'
+        path: src/lessons/welcome-to-challenge-studio/what-is-entrepreneurship-a-refresher.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: How to Build an Entrepreneurial Venture
+        path: src/lessons/welcome-to-challenge-studio/how-to-build-an-entrepreneurial-venture.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: Working Together to Build Your Venture
+        path: src/lessons/welcome-to-challenge-studio/working-together-to-build-your-venture.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: Refining Your Problem Statement
+        path: src/lessons/welcome-to-challenge-studio/refining-your-problem-statement.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: Assignment Instructions
+        path: src/lessons/welcome-to-challenge-studio/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-14'
+      - name: Group Meeting Reflection
+        path: src/lessons/welcome-to-challenge-studio/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 120
+        publish: '2024-04-07'
+        due: '2024-04-14'
+        grade_weight: 2
+      - name: Problem Statement
+        path: src/lessons/welcome-to-challenge-studio/assignment-problem.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        publish: '2024-04-07'
+        due: '2024-04-14'
+        grade_weight: 2
+  - name: Getting to the Right Solution
+    activities:
+      - name: Introduction
+        path: src/lessons/getting-to-the-right-solution.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: What Makes a Good Idea
+        path: src/lessons/getting-to-the-right-solution/what-makes-a-good-idea.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: 'Understanding User Needs'
+        path: src/lessons/getting-to-the-right-solution/understanding-your-user-s-needs.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: 'Generating Ideas for User Needs'
+        path: src/lessons/getting-to-the-right-solution/generating-ideas-for-your-user-s-needs.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: Evaluating Your Ideas
+        path: src/lessons/getting-to-the-right-solution/evaluating-your-ideas.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: Peer Reviewed Resource 
+        path: src/lessons/getting-to-the-right-solution/peer-solution.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: Crafting a Solution Statement
+        path: src/lessons/getting-to-the-right-solution/crafting-a-solution-statement.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: Assignment Instructions
+        path: src/lessons/getting-to-the-right-solution/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-21'
+      - name: User Insights and Empathy Map
+        path: src/lessons/getting-to-the-right-solution/assignment-user.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 600
+        publish: '2024-04-07'
+        due: '2024-04-21'
+        grade_weight: 10
+      - name: Solution Statement
+        path: src/lessons/getting-to-the-right-solution/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        publish: '2024-04-07'
+        due: '2024-04-21'
+        grade_weight: 2
+  - name: 'MVP 1: Build, Test, Iterate'
+    activities:
+      - name: Introduction
+        path: src/lessons/mvp-1-build-test-iterate.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: 'MVPs: A Refresher'
+        path: src/lessons/mvp-1-build-test-iterate/mvps-a-refresher.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: Types of MVPs
+        path: src/lessons/mvp-1-build-test-iterate/types-of-mvps.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: Planning Your Low-Fidelity MVP
+        path: src/lessons/mvp-1-build-test-iterate/planning-your-low-fidelity-mvp.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: Building Your Low-Fidelity MVP
+        path: src/lessons/mvp-1-build-test-iterate/building-your-low-fidelity-mvp.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: Testing Your Low-Fidelity MVP
+        path: src/lessons/mvp-1-build-test-iterate/testing-your-low-fidelity-mvp.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: Assignment Instructions
+        path: src/lessons/mvp-1-build-test-iterate/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-07'
+        due: '2024-04-28'
+      - name: MVP
+        path: src/lessons/mvp-1-build-test-iterate/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 900
+        publish: '2024-04-07'
+        due: '2024-04-28'
+        grade_weight: 10
+  - name: Introduction to Business Models
+    activities:
+      - name: Introduction
+        path: src/lessons/introduction-to-business-models.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: What is a Business Model?
+        path: src/lessons/introduction-to-business-models/what-is-a-business-model.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Types of Business Models
+        path: src/lessons/introduction-to-business-models/types-of-business-models.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Peer Reviewed Resource 
+        path: src/lessons/introduction-to-business-models/peer-business.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Visualizing Your Business Model
+        path: src/lessons/introduction-to-business-models/visualizing-your-business-model.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Customer Segmentation
+        path: src/lessons/introduction-to-business-models/your-value-proposition-and-customer-segment.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Customer Relationships and Channels
+        path: src/lessons/introduction-to-business-models/customer.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: 'Key Activities, Resources, and Partners'
+        path: src/lessons/introduction-to-business-models/activities.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Revenue Streams
+        path: src/lessons/introduction-to-business-models/revenue.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Cost Structure
+        path: src/lessons/introduction-to-business-models/cost.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Assignment Instructions
+        path: src/lessons/introduction-to-business-models/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-21'
+        due: '2024-05-05'
+      - name: Business Model Canvas
+        path: src/lessons/introduction-to-business-models/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        publish: '2024-04-21'
+        due: '2024-05-05'
+        grade_weight: 5
+      - name: Team Reflection
+        path: src/lessons/introduction-to-business-models/assignment-reflection.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 120
+        publish: '2024-04-21'
+        due: '2024-05-05'
+        grade_weight: 2
+  - name: Launching Your Venture
+    activities:
+      - name: Introduction
+        path: src/lessons/launching-your-venture.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-21'
+        due: '2024-05-12'
+      - name: What it Means to Launch
+        path: src/lessons/launching-your-venture/what-it-means-to-launch.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-12'
+      - name: Types of Product Launch
+        path: src/lessons/launching-your-venture/types-of-product-launch.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-12'
+      - name: Planning Your Launch
+        path: src/lessons/launching-your-venture/planning-your-launch.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-04-21'
+        due: '2024-05-12'
+      - name: Assignment Instructions
+        path: src/lessons/launching-your-venture/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-21'
+        due: '2024-05-12'
+      - name: Midpoint Reflection
+        path: src/lessons/launching-your-venture/assignment-reflection.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 180
+        publish: '2024-04-21'
+        due: '2024-05-12'
+        grade_weight: 2
+  - name: 'Refining Your MVP: Iterate and Test'
+    activities:
+      - name: Introduction
+        path: src/lessons/refining-your-mvp-iterate-and-test.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-28'
+        due: '2024-05-19'
+      - name: Assignment Instructions
+        path: src/lessons/iteration/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-04-28'
+        due: '2024-05-19'
+      - name: Iteration Report
+        path: src/lessons/iteration/assignment-iteration.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 900
+        publish: '2024-04-28'
+        due: '2024-05-19'
+        grade_weight: 15
+  - name: Gaining Traction
+    activities:
+      - name: Introduction
+        path: src/lessons/gaining-traction.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: What is Traction?
+        path: src/lessons/gaining-traction/what-is-traction.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: Understanding Traction Channels
+        path: src/lessons/gaining-traction/understanding-traction-channels.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: 'What is a Business Plan?'
+        path: src/lessons/gaining-traction/what-is-a-business-plan.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: Introduction to Revenue Modeling
+        path: src/lessons/gaining-traction/financial-modeling.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: Assignment Instructions
+        path: src/lessons/gaining-traction/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-05'
+        due: '2024-05-26'
+      - name: Revenue Model
+        path: src/lessons/gaining-traction/assignment-rmodel.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 240
+        publish: '2024-05-05'
+        due: '2024-05-26'
+        grade_weight: 5
+  - name: Structuring and Funding Your Venture
+    activities:
+      - name: Introduction
+        path: src/lessons/structuring-and-funding-your-venture.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: 'Structuring Your Venture: An Introduction'
+        path: src/lessons/structuring-and-funding-your-venture/structuring-your-venture-an-introduction.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: Types of Business Structure
+        path: src/lessons/structuring-and-funding-your-venture/types-of-business-structure.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: Funding Your Venture
+        path: src/lessons/structuring-and-funding-your-venture/funding-your-venture.md
+        type: lesson
+        kind: GENERAL
+        workload: 90
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: Peer Reviewed Resource 
+        path: src/lessons/structuring-and-funding-your-venture/peer-structure.md
+        type: lesson
+        kind: PUBLICATION_REVIEWED
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: Assignment Instructions
+        path: src/lessons/structuring-and-funding-your-venture/instructions.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-05'
+        due: '2024-06-02'
+      - name: Marketing Plan
+        path: src/lessons/structuring-and-funding-your-venture/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        workload: 240
+        publish: '2024-05-05'
+        due: '2024-06-02'
+        grade_weight: 5
+  - name: Pitching Your Venture 
+    activities:
+      - name: Introduction
+        path: src/lessons/pitch-practice-and-creating-a-business.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-05'
+        due: '2024-06-09'
+      - name: Prepare Your Pitch Deck
+        path: src/lessons/pitch-practice-and-creating-a-business/prepare-your-pitch-deck.md
+        type: lesson
+        kind: GENERAL
+        workload: 300
+        publish: '2024-05-05'
+        due: '2024-06-09'
+      - name: Practice Your Pitch
+        path: src/lessons/pitch-practice-and-creating-a-business/practice-your-pitch.md
+        type: lesson
+        kind: GENERAL
+        workload: 120
+        publish: '2024-05-05'
+        due: '2024-06-09'
+      - name: Refining Your Business Plan
+        path: src/lessons/pitch-practice-and-creating-a-business/what-is-a-business-plan.md
+        type: lesson
+        kind: GENERAL
+        workload: 60
+        publish: '2024-05-05'
+        due: '2024-06-09'
+  - name: Final Assessments
+    activities:
+      - name: Final Assessments Overview
+        path: src/lessons/final-deliverables/overview.md
+        type: lesson
+        kind: GENERAL
+        workload: 15
+        publish: '2024-05-19'
+        due: '2024-06-10'
+      - name: Pitch Deck and Presentation 
+        path: src/lessons/final-deliverables/final-pitch.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 300
+        publish: '2024-05-19'
+        due: '2024-06-10'
+        grade_weight: 10
+      - name: Final Business Plan
+        path: src/lessons/final-deliverables/business-plan.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 300
+        publish: '2024-05-19'
+        due: '2024-06-14'
+        grade_weight: 10
+      - name: Final Product
+        path: src/lessons/final-deliverables/final-product.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 1200
+        publish: '2024-05-19'
+        due: '2024-06-14'
+        grade_weight: 15
+      - name: Course Reflection
+        path: src/lessons/final-deliverables/course-reflection.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        workload: 120
+        publish: '2024-05-19'
+        due: '2024-06-14'
+        grade_weight: 5
